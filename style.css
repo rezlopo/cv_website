@@ -338,6 +338,13 @@ ul.timeline > li:before {
   background-color: #000;
 }
 
+@media screen and (max-width: 600px)
+{
+  #qr{
+    order: 3;
+  }
+}
+
 
 
 
