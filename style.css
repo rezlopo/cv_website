@@ -9,13 +9,15 @@ body
     color: #fff;
     height: 100%;
     
+    
+    
 }
 
 .main
 {
   width: 100%;
   height: 100%;
-  /*-----CSS Smoot Scrool goes here-----*/
+  
 
 }
 
@@ -277,13 +279,13 @@ ul.timeline > li:before {
 
 #contact
 {
-  padding-top: 100px;
+  height: 100%;
 }
 
-#contact .row
+#row-contact
 {
   padding: 30px;
-  font-size: 22px;
+  font-size: 20px;
   
 }
 
@@ -325,19 +327,58 @@ ul.timeline > li:before {
   background: #000 !important;
 }
 
-#footer .fas
+#signature .fas
 {
   color: yellow;
 }
 
 #footer
 {
-  margin-top: 20px;
-  height: 20px;
-  
+  height: 20%;
+  background-color: #000;
 }
 
 
+
+
+
+
+
+/*------------Social Icons--------*/
+
+.social-icons
+{
+  top: 50%;
+  transform: translateY(-50%);
+  position: sticky;
+  z-index: 1;
+  width: 80px;
+
+}
+
+.social-icons ul
+{
+  padding: initial;
+}
+
+.social-icons ul li
+{
+  height: 40px;
+  width: 40px;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+  color: #fff;
+  background: #000;
+}
+
+.social-icons ul li:hover
+{
+  padding-left: 30px;
+  width: 80px;
+  transition: 1s;
+}
 
 
 
