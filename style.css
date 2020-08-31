@@ -45,9 +45,10 @@ body
 .user-box img
 {
     border-radius: 50%;
-    border: 2px solid #6caed5;
-    width: 200px;
+    border: 3px solid #ffffff;
+    width: auto;
     padding: 10px;
+    width: 50%;
     
 }
 
@@ -59,7 +60,8 @@ body
 
 .user-box p
 {
-    margin-bottom: 25px;
+    margin-bottom: 60px;
+    
 }
 
 /*-------Scr Btn-------*/
@@ -147,15 +149,34 @@ body
   padding-top: 100px;
   padding-bottom: 50px;
   height: 100%;
+  position: relative;
+  margin-top: -150px;
   
   
-  
-
 }
 
 .navbar
 {
   z-index: 1000;
+}
+
+#about h1
+{
+  margin-bottom: 15px;
+}
+
+.skills-bar
+{
+  margin-bottom: 6px;
+}
+
+.progress
+{
+  margin-bottom: 15px;
+}
+.skills-bar p
+{
+  margin-bottom: 3px;
 }
 
 
@@ -169,7 +190,7 @@ body
   
 }
 
-#resume h3
+#resume h1
 {
   margin-bottom: 50px;
 }
@@ -280,6 +301,9 @@ ul.timeline > li:before {
 #contact
 {
   height: 100%;
+  padding-top: 100px;
+  
+  
 }
 
 #row-contact
@@ -358,9 +382,12 @@ ul.timeline > li:before {
   top: 50%;
   transform: translateY(-50%);
   position: sticky;
-  z-index: 1;
+  z-index: 10000;
   width: 80px;
-
+  margin-top: 50px;
+  
+  
+  
 }
 
 .social-icons ul
